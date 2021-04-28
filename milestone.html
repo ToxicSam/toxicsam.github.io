@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>  
+    div.padded {  
+      padding-top: 0px;  
+      padding-right: 100px;  
+      padding-bottom: 0.25in;  
+      padding-left: 100px;  
+    }  
+	body {
+		font-family: 'Roboto', sans-serif;
+		margin: auto;
+		width: 80%;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	table {
+		margin: 0 auto;
+	}
+
+	table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+  </style> 
+<title>CS 184 Final Project Milestone</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<h1 align="middle">Toon Shaders Milestone Report</h1>
+<h2 align="middle">Robert Qiu, Brandon Bizzarro, Sanwu Luo, Leon Wu</h2>
+<div class="padded">
+<img src="images/goku.gif"/>
+<h2 align="middle">What We Accomplished & Preliminary Results</h2>
+<p>One of our members spent their time analyzing Unity shaders and learning about the ways existing toon (and other) shaders work, both on the practical level (i.e. Unity specific details, such as the Shaderlab file structure) as well as technical (i.e. how is lighting calculated for speculars). Some basic fragments of shaders were implemented while experimenting with basic features, though features and complexity should ramp up soon.<br/><br/>
+For a specific shader, we explored the chroma-glitch effect shader. By sampling color from a noisy image and shifting color accordingly, we can accomplish the glitch effect through shader. We also explored the chroma effect shader. The next goal will be creating an adjustable Unity shader that can change parameters in real time.<br/><br/>
+We also did some experimentation in ShaderToy since it is a very easy to use tool that allows us to see changes reflected in the visual feed. We found and looked at various toon shaders in Shader Toy and tried to understand how the code worked, as well as experimented with the shader by tweaking values and changing parts of the code to see what that did to the shader in real time. It helped us get a better understanding of toon shaders and gave us an idea of what kind of direction we want to go with our project.</p>
+<h2 align="middle">Progress and Plan Moving Forward</h2>
+<p>Shadertoy was not exactly what we thought it would be. After some consideration and time playing around with it, we decided to switch completely to working Unity and thus are a bit behind on our schedule. We did come up with a collection of shaders. We have three shaders: a glitch effect shader, a black-white effect shader (noir/ink-esque), and a (currently) basic Blinn-Phong toon shader which we plan to heavily expand upon into a main, customizable shader. Basically, what we have right now is a much better basis of understanding of both shaders and our chosen tool to work off of, a working template of a basic shader in Unity, and a more solid final goal.<br/><br/>
+The overall project direction will be an interactive Unity demo where the user can adjust and customize the shaders in real time. We plan for it to have many different adjustable effects, and a nice 3D overlay UI to modify the slider values. Ideally we integrate everything into a single shader, if time permits and such a merge makes sense.</p>
+<h2 align="middle">Links</h2>
+<p>Slides: <a href="https://docs.google.com/presentation/d/1netlNs1O33uXhFnsubX6NpcbneD0IrB5TBHDd9Jn_FY/edit?usp=sharing">here</a></p>
+<p>Video: <a href="https://drive.google.com/file/d/1T3IhneIyCUYZ-97R8_bHtVc6p8dVADkg/view?usp=sharing">here</a></p>
+</body>
+</html>
