@@ -1,7 +1,7 @@
 div.padded {  
-  padding-top: 0px;  
+  padding-top: 150px;  
   padding-right: 100px;  
-  padding-bottom: 0.25in;  
+  padding-bottom: 50px;  
   padding-left: 100px;  
 }  
 body {
@@ -9,8 +9,22 @@ body {
 	background-color: #ebebeb;
 }
 
+.PageTitle {
+	margin: 0px auto;
+	margin-top: 250px;
+	margin-bottom: -80px;
+	width: 40%;
+	/*
+    font-family: 'Roboto', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 700;
+	*/
+}
+
+
 .Content {
-	margin: 400px auto;
+	margin: 0px auto;
 	width: 70%;
 	background-color: #FFFFFF;
 	border-radius: 25px;
@@ -99,6 +113,16 @@ p {
 	line-height: 150%;
 	color: #555555;
 }
+
+.Citation {
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 150%;
+	color: #555555;
+}
+
 
 table {
 	margin: 0 auto;
