@@ -1,125 +1,124 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
-<style>  
-    div.padded {  
-      padding-top: 0px;  
-      padding-right: 100px;  
-      padding-bottom: 0.25in;  
-      padding-left: 100px;  
-    }  
-	body {
-		font-family: 'Roboto', sans-serif;
-		margin: auto;
-		width: 80%;
-	}
-
-	p {
-		text-align: center;
-	}
-
-	table {
-		margin: 0 auto;
-	}
-
-	table, th, td {
-	  border: 1px solid black;
-	  border-collapse: collapse;
-	}
-
-	img {
-		width: 100%;
-		height: auto;
-	}
-  </style> 
-<title>CS 184 Final Project Proposal</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>CS 184 Final Project Proposal</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
-<body>
-<h1 align="middle">Toon Shaders</h1>
-<h2 align="middle">Robert Qiu, Brandon Bizzarro, Sanwu Luo, Leon Wu</h2>
 
-<div class="padded">
-<h2 align="middle">Summary</h2>
-<p>A collection of realtime toon / stylized shaders made for the end goal of use in a game engine. We experiment with real time rendering shaders for non-photorealistic materials.</p>
-<h2 align="middle">Problem Description</h2>
-<p>We aim to create a collection of simple toon or stylized shaders, not because there is a dearth of them, but because we wish to learn how to create realtime shaders for personal enrichment and possible inclusion in future 3D interactive projects. Realtime shaders is more or less a new frontier for all of us, and creating stylized shaders allows us to express more creative aspects in this project.</p>
-<h2 align="middle">Goals and Deliverables</h2>
-<p>Our goal is to create our own small set of toon shaders that can be used in real-time applications with reasonable performance. Exactly what kind of stylized/toon shaders we plan on working on is not yet decided, but we like the idea of the non-photorealistic look. There are interesting mathematical as well as artistic design challenges associated with enforcing the look of these kinds of object materials, as well as how they respond to the environment. We think that with the availability of online resources, existing implementations at our disposal, and knowledge and support from the CS184 course, learning the practical skills and knowledge to create shaders is a reasonably scoped and fun endeavor. Creating these for a game engine such as Unity allows for use of these shaders beyond their initial beginnings as a simple class project, or at the very least equips us with the experience and know-how for future work in this area.</p>
-<p>Example toon shaders:</p>
-<img src="images/goku.gif"/>
-<img src="images/toon-shader-demo.png"/>
-<img src="images/toonshaders.jpg"/>
-<h2 align="middle">Schedule</h2>
- <table style="width:80%">
-  <tr>
-    <th>Week</th>
-    <th>Baseline</th>
-    <th>Optimistic</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>
-    	<ul>
-	    	<li>Learning about shaders (finishing proj.4)</li>
-	    	<li>Poking around shaders in Shadertoy</li>
-	    	<li>Coming up with a collection theme for the shaders.</li>
-    	</ul>
-	</td>
-    <td>
-    	<ul>
-	    	<li>Writing toy shaders in Shadertoy</li>
-    	</ul>
-	</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-    	<ul>
-	    	<li>Writing toy shaders in Shadertoy</li>
-	    	<li>Finalize collection/project direction</li>
-    	</ul>
-	</td>
-    <td>
-    	<ul>
-	    	<li>Have a few custom shaders in unity, either via shader graph or cg</li>
-    	</ul>
-	</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-    	<ul>
-	    	<li>Work on shader collection, either in shadertoy or unity</li>
-	    	<li>Milestone deliverables</li>
-    	</ul>
-	</td>
-    <td>
-    	<ul>
-	    	<li>More advanced unity implementation</li>
-    	</ul>
-	</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-    	<ul>
-	    	<li>Converting shader written on Shadertoy to Unity shader assets</li>
-	    	<li>Final deliverables</li>
-    	</ul>
-	</td>
-	<td>
-    	<ul>
-	    	<li>Interactive demo with the collection of shaders</li>
-    	</ul>
-	</td>
-  </tr>
-</table>
-<h2 align="middle">Resources</h2>
-<p>We will be using ShaderToy.com to both learn and develop our shaders, because the easy to use interface and the real time rendering of the shader code we write is extremely useful. If we have time, we can potentially put our shaders in Unity and make an interactive demo scene, given we all have varying levels of experience with the Unity engine. All of us are on Windows except for 1 Mac user. Since we will be using Unity, our computing platforms don’t matter much, as Unity will convert the shaders we write into platform specific code. We will mainly use the internet (Youtube, Google, Wikipedia, etc.) to learn more about shaders as most of us are pretty new to them; there are a lot of resources available to learn about shaders since it is a pretty common and well known field.</p>
+<body>
+
+	<div class="BackgroundImage">
+		<img src="assets/images/background_image.png"/>
+	</div>
+
+	<div class="NavBar">
+		<div class="NavTitleContainer">
+			<div class="NavTitleImage"><img src="assets/images/toon_shader_title.png"/></div>
+			<div class="NavButtons">
+				<div class="NavButton"><a href="index.html">Proposal</a></div>
+				<div class="NavButton"><a href="milestone.html">Milestone</a></div>
+				<div class="NavButton"><a href="final.html">Final Report</a></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="Content">
+		<h2 align="middle">Robert Qiu, Brandon Bizzarro, Sanwu Luo, Leon Wu</h2>
+		
+		<div class="padded">
+
+		<h2 align="middle">Summary</h2>
+		<p>A collection of realtime toon / stylized shaders made for the end goal of use in a game engine. We experiment with real time rendering shaders for non-photorealistic materials.</p>
+		<div class="Hline"></div>
+
+		<h2 align="middle">Problem Description</h2>
+		<p>We aim to create a collection of simple toon or stylized shaders, not because there is a dearth of them, but because we wish to learn how to create realtime shaders for personal enrichment and possible inclusion in future 3D interactive projects. Realtime shaders is more or less a new frontier for all of us, and creating stylized shaders allows us to express more creative aspects in this project.</p>
+		<div class="Hline"></div>
+
+		<h2 align="middle">Goals and Deliverables</h2>
+		<p>Our goal is to create our own small set of toon shaders that can be used in real-time applications with reasonable performance. Exactly what kind of stylized/toon shaders we plan on working on is not yet decided, but we like the idea of the non-photorealistic look. There are interesting mathematical as well as artistic design challenges associated with enforcing the look of these kinds of object materials, as well as how they respond to the environment. We think that with the availability of online resources, existing implementations at our disposal, and knowledge and support from the CS184 course, learning the practical skills and knowledge to create shaders is a reasonably scoped and fun endeavor. Creating these for a game engine such as Unity allows for use of these shaders beyond their initial beginnings as a simple class project, or at the very least equips us with the experience and know-how for future work in this area.</p>
+		<div class="Hline"></div>
+		
+		<p>Example toon shaders:</p>
+		<img src="images/goku.gif"/>
+		<img src="images/toon-shader-demo.png"/>
+		<img src="images/toonshaders.jpg"/>
+		<h2 align="middle">Schedule</h2>
+		 <table style="width:80%">
+		  <tr>
+		    <th>Week</th>
+		    <th>Baseline</th>
+		    <th>Optimistic</th>
+		  </tr>
+		  <tr>
+		    <td>1</td>
+		    <td>
+		    	<ul>
+			    	<li>Learning about shaders (finishing proj.4)</li>
+			    	<li>Poking around shaders in Shadertoy</li>
+			    	<li>Coming up with a collection theme for the shaders.</li>
+		    	</ul>
+			</td>
+		    <td>
+		    	<ul>
+			    	<li>Writing toy shaders in Shadertoy</li>
+		    	</ul>
+			</td>
+		  </tr>
+		  <tr>
+		    <td>2</td>
+		    <td>
+		    	<ul>
+			    	<li>Writing toy shaders in Shadertoy</li>
+			    	<li>Finalize collection/project direction</li>
+		    	</ul>
+			</td>
+		    <td>
+		    	<ul>
+			    	<li>Have a few custom shaders in unity, either via shader graph or cg</li>
+		    	</ul>
+			</td>
+		  </tr>
+		  <tr>
+		    <td>3</td>
+		    <td>
+		    	<ul>
+			    	<li>Work on shader collection, either in shadertoy or unity</li>
+			    	<li>Milestone deliverables</li>
+		    	</ul>
+			</td>
+		    <td>
+		    	<ul>
+			    	<li>More advanced unity implementation</li>
+		    	</ul>
+			</td>
+		  </tr>
+		  <tr>
+		    <td>4</td>
+		    <td>
+		    	<ul>
+			    	<li>Converting shader written on Shadertoy to Unity shader assets</li>
+			    	<li>Final deliverables</li>
+		    	</ul>
+			</td>
+			<td>
+		    	<ul>
+			    	<li>Interactive demo with the collection of shaders</li>
+		    	</ul>
+			</td>
+		  </tr>
+		</table>
+		<h2 align="middle">Resources</h2>
+		<p>We will be using ShaderToy.com to both learn and develop our shaders, because the easy to use interface and the real time rendering of the shader code we write is extremely useful. If we have time, we can potentially put our shaders in Unity and make an interactive demo scene, given we all have varying levels of experience with the Unity engine. All of us are on Windows except for 1 Mac user. Since we will be using Unity, our computing platforms don’t matter much, as Unity will convert the shaders we write into platform specific code. We will mainly use the internet (Youtube, Google, Wikipedia, etc.) to learn more about shaders as most of us are pretty new to them; there are a lot of resources available to learn about shaders since it is a pretty common and well known field.</p>
+		</div>
+
 </body>
 </html>

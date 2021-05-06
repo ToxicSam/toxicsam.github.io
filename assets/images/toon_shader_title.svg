@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1444"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="toon_shader_title.svg">
+  <defs
+     id="defs1438" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="293.9742"
+     inkscape:cy="472.36659"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1252"
+     inkscape:window-height="872"
+     inkscape:window-x="1688"
+     inkscape:window-y="165"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1441">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2081"
+       transform="translate(9.3544335,-16.83798)">
+      <circle
+         style="fill:#ffffff;stroke:#404040;stroke-width:0.965;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2034"
+         cx="79.713135"
+         cy="132.63251"
+         r="11.826676" />
+      <path
+         id="path2034-7"
+         style="fill:#404040;fill-opacity:1;stroke:none;stroke-width:3.64724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 280.66351,463.42523 c -13.70115,8.01876 -24.08549,21.98863 -24.08539,37.86383 2e-5,24.68669 20.01253,44.6992 44.69922,44.69922 15.8763,3.9e-4 29.49003,-8.59912 37.50865,-22.30162 -30.0711,36.98342 -96.36795,-28.56026 -58.12248,-60.26143 z"
+         transform="scale(0.26458333)"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       aria-label="Toon Shaders"
+       id="text2009"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.481542px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(-3.0618196,30.616518)">
+      <path
+         d="m 59.320149,104.20902 h 2.01354 l 0.18453,-1.36226 h -6.089468 v 1.36226 h 2.111232 v 6.16002 h 1.780166 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2011" />
+      <path
+         d="m 64.470589,104.41526 c -1.763883,0 -2.800504,1.23743 -2.800504,3.06644 0,1.93756 1.036621,3.07187 2.800504,3.07187 1.763883,0 2.800504,-1.15602 2.800504,-3.08272 0,-1.8453 -1.025766,-3.05559 -2.800504,-3.05559 z m 0,1.26457 c 0.700126,0 1.031193,0.54816 1.031193,1.79102 0,1.28627 -0.331067,1.82358 -1.031193,1.82358 -0.700126,0 -1.031193,-0.53731 -1.031193,-1.81273 0,-1.25371 0.331067,-1.80187 1.031193,-1.80187 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2013" />
+      <path
+         d="m 70.500257,104.41526 c -1.763883,0 -2.800504,1.23743 -2.800504,3.06644 0,1.93756 1.036621,3.07187 2.800504,3.07187 1.763884,0 2.800504,-1.15602 2.800504,-3.08272 0,-1.8453 -1.025766,-3.05559 -2.800504,-3.05559 z m 0,1.26457 c 0.700126,0 1.031194,0.54816 1.031194,1.79102 0,1.28627 -0.331068,1.82358 -1.031194,1.82358 -0.700126,0 -1.031193,-0.53731 -1.031193,-1.81273 0,-1.25371 0.331067,-1.80187 1.031193,-1.80187 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2015" />
+      <path
+         d="m 74.033352,110.36904 h 1.715037 v -4.03251 c 0.32564,-0.41247 0.645853,-0.6567 1.009484,-0.6567 0.423332,0 0.553588,0.24423 0.553588,0.94978 v 3.73943 h 1.715037 v -4.23332 c 0,-1.09089 -0.602434,-1.72046 -1.584781,-1.72046 -0.73269,0 -1.280851,0.28222 -1.79102,0.85752 l -0.119401,-0.66757 h -1.497944 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2017" />
+      <path
+         d="m 91.498313,108.17097 c 0,-1.38397 -0.841236,-1.9864 -2.263198,-2.42602 -1.19944,-0.37448 -1.541362,-0.55901 -1.541362,-1.04204 0,-0.48304 0.450468,-0.73812 1.128885,-0.73812 0.607861,0 1.204868,0.20624 1.715037,0.62957 l 0.841237,-0.96607 c -0.65128,-0.61871 -1.535935,-0.97149 -2.697385,-0.97149 -1.557644,0 -2.833067,0.80325 -2.833067,2.18179 0,1.14517 0.672989,1.81273 2.431445,2.35003 1.047475,0.32022 1.367688,0.56987 1.367688,1.11803 0,0.58616 -0.51017,0.92265 -1.253714,0.92265 -0.803246,0 -1.476235,-0.27137 -2.029823,-0.75983 l -0.900937,0.99863 c 0.62957,0.61872 1.552217,1.08547 2.974178,1.08547 1.915849,0 3.061016,-0.97692 3.061016,-2.3826 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2019" />
+      <path
+         d="m 93.837394,102.14663 -1.715038,0.16825 v 8.05416 h 1.715038 v -3.98909 c 0.32564,-0.43419 0.645852,-0.70012 1.009484,-0.70012 0.423332,0 0.553588,0.2388 0.553588,0.9335 v 3.75571 h 1.715037 v -4.23332 c 0,-1.09089 -0.559015,-1.72046 -1.584781,-1.72046 -0.640426,0 -1.210296,0.24965 -1.693328,0.75982 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2021" />
+      <path
+         d="m 103.00406,108.70828 v -2.25777 c 0,-1.31885 -0.80324,-2.03525 -2.51828,-2.03525 -0.640425,0 -1.503371,0.14653 -2.246916,0.42876 l 0.396196,1.13974 c 0.575297,-0.19539 1.210295,-0.30393 1.57935,-0.30393 0.74355,0 1.13974,0.28222 1.13974,0.88465 v 0.21709 h -0.7761 c -1.78017,0 -2.805936,0.71098 -2.805936,1.95927 0,1.06376 0.759826,1.81273 1.948412,1.81273 0.716404,0 1.454524,-0.24966 1.899564,-0.78154 0.26594,0.47761 0.73269,0.6947 1.41111,0.75983 l 0.35278,-1.12888 c -0.27137,-0.0977 -0.37992,-0.26052 -0.37992,-0.6947 z m -2.69195,0.61871 c -0.488464,0 -0.770686,-0.26051 -0.770686,-0.70555 0,-0.56444 0.434187,-0.86295 1.389396,-0.86295 h 0.42333 v 0.93351 c -0.21166,0.40705 -0.67299,0.63499 -1.04204,0.63499 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2023" />
+      <path
+         d="m 107.4598,102.13578 v 2.81136 c -0.34735,-0.34735 -0.79239,-0.53188 -1.30798,-0.53188 -1.42197,0 -2.29577,1.28085 -2.29577,3.05559 0,1.85614 0.68385,3.08272 2.11666,3.08272 0.7544,0 1.27543,-0.36906 1.59564,-0.81953 l 0.0868,0.635 h 1.51965 v -8.05416 z m -0.84666,3.53319 c 0.35278,0 0.60786,0.17368 0.84666,0.47218 v 2.48572 c -0.24965,0.41247 -0.55901,0.66756 -0.94435,0.66756 -0.52103,0 -0.89009,-0.39077 -0.89009,-1.81273 0,-1.29713 0.39077,-1.81273 0.98778,-1.81273 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2025" />
+      <path
+         d="m 111.69845,107.98644 h 3.73401 c 0.0217,-0.17367 0.0326,-0.4179 0.0326,-0.61329 0,-1.85614 -1.05833,-2.95789 -2.70281,-2.95789 -1.81273,0 -2.81136,1.37311 -2.81136,3.07729 0,1.79102 1.01491,3.06102 2.99589,3.06102 0.98234,0 1.75845,-0.32564 2.30119,-0.79239 l -0.68928,-0.9335 c -0.45589,0.29307 -0.94978,0.4776 -1.47623,0.4776 -0.73269,0 -1.27,-0.37448 -1.38397,-1.31884 z m 1.06376,-2.42059 c 0.73269,0 1.02034,0.55359 1.03119,1.3894 h -2.11666 c 0.076,-0.96607 0.47218,-1.3894 1.08547,-1.3894 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2027" />
+      <path
+         d="m 120.6426,104.43154 c -0.92808,0 -1.55222,0.48303 -1.9647,1.47081 l -0.31478,-1.29714 h -2.06782 v 1.13974 h 0.75983 v 3.4735 h -0.75983 v 1.15059 h 3.61461 v -1.15059 h -1.13974 v -1.64991 c 0.27137,-0.85752 0.77611,-1.49795 1.42739,-1.61735 v 1.06376 h 1.07461 l 0.32021,-2.40974 c -0.27136,-0.10854 -0.55901,-0.17367 -0.94978,-0.17367 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2029" />
+      <path
+         d="m 124.58275,109.32699 c -0.67299,0 -1.24829,-0.26051 -1.69333,-0.60786 l -0.86295,0.96607 c 0.59701,0.52102 1.4491,0.86837 2.56713,0.86837 1.47081,0 2.72452,-0.64042 2.72452,-1.90499 0,-1.12889 -0.72726,-1.5088 -1.84529,-1.82359 -1.12889,-0.32564 -1.36226,-0.44504 -1.36226,-0.74354 0,-0.29851 0.26594,-0.44504 0.82495,-0.44504 0.55902,0 1.12346,0.19538 1.60107,0.48846 l 0.68384,-1.00949 c -0.55902,-0.40705 -1.30799,-0.70012 -2.33375,-0.70012 -1.62278,0 -2.502,0.7544 -2.502,1.78016 0,1.02034 0.72726,1.48709 1.78559,1.76931 1.15059,0.31479 1.36769,0.45047 1.36769,0.81953 0,0.36363 -0.38534,0.54273 -0.95521,0.54273 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2031" />
+    </g>
+    <g
+       id="g2187"
+       transform="translate(-0.0193171,-3.0715107)"
+       style="stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g2172"
+         transform="translate(4.136737,-41.053894)"
+         style="stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           d="m 77.042673,152.47909 h 2.01354 l 0.18453,-1.36226 h -6.089468 v 1.36226 h 2.111232 v 6.16002 h 1.780166 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2011-2" />
+        <path
+           d="m 82.193113,152.68533 c -1.763883,0 -2.800504,1.23743 -2.800504,3.06644 0,1.93756 1.036621,3.07187 2.800504,3.07187 1.763883,0 2.800504,-1.15602 2.800504,-3.08272 0,-1.8453 -1.025766,-3.05559 -2.800504,-3.05559 z m 0,1.26457 c 0.700126,0 1.031193,0.54816 1.031193,1.79102 0,1.28627 -0.331067,1.82358 -1.031193,1.82358 -0.700126,0 -1.031193,-0.53731 -1.031193,-1.81273 0,-1.25371 0.331067,-1.80187 1.031193,-1.80187 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2013-1" />
+        <path
+           d="m 88.222781,152.68533 c -1.763883,0 -2.800504,1.23743 -2.800504,3.06644 0,1.93756 1.036621,3.07187 2.800504,3.07187 1.763884,0 2.800504,-1.15602 2.800504,-3.08272 0,-1.8453 -1.025766,-3.05559 -2.800504,-3.05559 z m 0,1.26457 c 0.700126,0 1.031194,0.54816 1.031194,1.79102 0,1.28627 -0.331068,1.82358 -1.031194,1.82358 -0.700126,0 -1.031193,-0.53731 -1.031193,-1.81273 0,-1.25371 0.331067,-1.80187 1.031193,-1.80187 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2015-1" />
+        <path
+           d="m 91.755876,158.63911 h 1.715037 v -4.03251 c 0.32564,-0.41247 0.645853,-0.6567 1.009484,-0.6567 0.423332,0 0.553588,0.24423 0.553588,0.94978 v 3.73943 h 1.715037 v -4.23332 c 0,-1.09089 -0.602434,-1.72046 -1.584781,-1.72046 -0.73269,0 -1.280851,0.28222 -1.79102,0.85752 l -0.119401,-0.66757 h -1.497944 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2017-0" />
+      </g>
+      <g
+         id="g2166"
+         transform="translate(-3.3282911,-48.42443)"
+         style="stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           d="m 77.522868,173.71097 c 0,-1.38397 -0.841236,-1.9864 -2.263198,-2.42602 -1.19944,-0.37448 -1.541362,-0.55901 -1.541362,-1.04204 0,-0.48304 0.450468,-0.73812 1.128885,-0.73812 0.607861,0 1.204868,0.20624 1.715037,0.62957 l 0.841237,-0.96607 c -0.65128,-0.61871 -1.535935,-0.97149 -2.697385,-0.97149 -1.557644,0 -2.833067,0.80325 -2.833067,2.18179 0,1.14517 0.672989,1.81273 2.431445,2.35003 1.047475,0.32022 1.367688,0.56987 1.367688,1.11803 0,0.58616 -0.51017,0.92265 -1.253714,0.92265 -0.803246,0 -1.476235,-0.27137 -2.029823,-0.75983 l -0.900937,0.99863 c 0.62957,0.61872 1.552217,1.08547 2.974178,1.08547 1.915849,0 3.061016,-0.97692 3.061016,-2.3826 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2019-1" />
+        <path
+           d="m 79.861949,167.68663 -1.715038,0.16825 v 8.05416 h 1.715038 v -3.98909 c 0.32564,-0.43419 0.645855,-0.70012 1.009485,-0.70012 0.42333,0 0.55359,0.2388 0.55359,0.9335 v 3.75571 h 1.71503 v -4.23332 c 0,-1.09089 -0.55901,-1.72046 -1.58478,-1.72046 -0.64042,0 -1.21029,0.24965 -1.693325,0.75982 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2021-8" />
+        <path
+           d="m 89.028614,174.24828 v -2.25777 c 0,-1.31885 -0.80324,-2.03525 -2.51828,-2.03525 -0.64042,0 -1.50337,0.14653 -2.24692,0.42876 l 0.3962,1.13974 c 0.5753,-0.19539 1.2103,-0.30393 1.57935,-0.30393 0.74355,0 1.13974,0.28222 1.13974,0.88465 v 0.21709 h -0.7761 c -1.78017,0 -2.80594,0.71098 -2.80594,1.95927 0,1.06376 0.75983,1.81273 1.94842,1.81273 0.7164,0 1.45452,-0.24966 1.89956,-0.78154 0.26594,0.47761 0.73269,0.6947 1.41111,0.75983 l 0.35278,-1.12888 c -0.27137,-0.0977 -0.37992,-0.26052 -0.37992,-0.6947 z m -2.69195,0.61871 c -0.48846,0 -0.77069,-0.26051 -0.77069,-0.70555 0,-0.56444 0.43419,-0.86295 1.3894,-0.86295 h 0.42333 v 0.93351 c -0.21166,0.40705 -0.67299,0.63499 -1.04204,0.63499 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2023-7" />
+        <path
+           d="m 93.484354,167.67578 v 2.81136 c -0.34735,-0.34735 -0.79239,-0.53188 -1.30798,-0.53188 -1.42197,0 -2.29577,1.28085 -2.29577,3.05559 0,1.85614 0.68385,3.08272 2.11666,3.08272 0.7544,0 1.27543,-0.36906 1.59564,-0.81953 l 0.0868,0.635 h 1.51965 v -8.05416 z m -0.84666,3.53319 c 0.35278,0 0.60786,0.17368 0.84666,0.47218 v 2.48572 c -0.24965,0.41247 -0.55901,0.66756 -0.94435,0.66756 -0.52103,0 -0.89009,-0.39077 -0.89009,-1.81273 0,-1.29713 0.39077,-1.81273 0.98778,-1.81273 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2025-6" />
+        <path
+           d="m 97.723004,173.52644 h 3.734006 c 0.0217,-0.17367 0.0326,-0.4179 0.0326,-0.61329 0,-1.85614 -1.05833,-2.95789 -2.702806,-2.95789 -1.81273,0 -2.81136,1.37311 -2.81136,3.07729 0,1.79102 1.01491,3.06102 2.99589,3.06102 0.98234,0 1.758446,-0.32564 2.301186,-0.79239 l -0.68928,-0.9335 c -0.45589,0.29307 -0.949776,0.4776 -1.476226,0.4776 -0.73269,0 -1.27,-0.37448 -1.38397,-1.31884 z m 1.06376,-2.42059 c 0.73269,0 1.02034,0.55359 1.03119,1.3894 h -2.11666 c 0.076,-0.96607 0.47218,-1.3894 1.08547,-1.3894 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2027-0" />
+        <path
+           d="m 106.66715,169.97154 c -0.92808,0 -1.55222,0.48303 -1.9647,1.47081 l -0.31478,-1.29714 h -2.06782 v 1.13974 h 0.75983 v 3.4735 h -0.75983 v 1.15059 h 3.61461 v -1.15059 h -1.13974 v -1.64991 c 0.27137,-0.85752 0.77611,-1.49795 1.42739,-1.61735 v 1.06376 h 1.07461 l 0.32021,-2.40974 c -0.27136,-0.10854 -0.55901,-0.17367 -0.94978,-0.17367 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2029-0" />
+        <path
+           d="m 110.6073,174.86699 c -0.67299,0 -1.24829,-0.26051 -1.69333,-0.60786 l -0.86295,0.96607 c 0.59701,0.52102 1.4491,0.86837 2.56713,0.86837 1.47081,0 2.72452,-0.64042 2.72452,-1.90499 0,-1.12889 -0.72726,-1.5088 -1.84529,-1.82359 -1.12889,-0.32564 -1.36226,-0.44504 -1.36226,-0.74354 0,-0.29851 0.26594,-0.44504 0.82495,-0.44504 0.55902,0 1.12346,0.19538 1.60107,0.48846 l 0.68384,-1.00949 c -0.55902,-0.40705 -1.30799,-0.70012 -2.33375,-0.70012 -1.62278,0 -2.502,0.7544 -2.502,1.78016 0,1.02034 0.72726,1.48709 1.78559,1.76931 1.15059,0.31479 1.36769,0.45047 1.36769,0.81953 0,0.36363 -0.38534,0.54273 -0.95521,0.54273 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';letter-spacing:-0.48154200000000003px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2031-9" />
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 78.094316,119.16683 c 0,0 0.792585,-0.28773 1.015412,0.48898"
+       id="path2189" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 86.946117,109.31324 c 0,0 1.00226,-0.0668 1.169305,1.06907"
+       id="path2191" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 92.976387,109.31357 c 0,0 1.00226,-0.0668 1.169305,1.06907"
+       id="path2191-8" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 98.964827,109.14976 c 0,0 1.120373,-0.20854 1.287423,0.92733"
+       id="path2191-8-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 95.988264,119.04801 c -0.0068,0.0274 0.952559,0.132 1.169305,1.06907"
+       id="path2191-8-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.80002,119.02438 c 0.005,0.01 0.65931,-0.16285 1.21655,0.36037"
+       id="path2191-8-46"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.216069,117.32494 c -0.09168,0.0458 1.036063,-0.30813 1.901634,0.47848"
+       id="path2191-8-464"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
