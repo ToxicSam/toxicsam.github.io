@@ -22,6 +22,10 @@ body {
 	*/
 }
 
+#FinalTitle {
+	width: 25%;
+}
+
 
 .Content {
 	margin: 0px auto;
@@ -91,6 +95,7 @@ a:hover {
 	background-color: #777777;
 	margin: 0 auto;
 	margin-bottom: 100px;
+	margin-top: 40px;
 }
 
 /*
@@ -123,14 +128,40 @@ p {
 	color: #555555;
 }
 
-
-table {
-	margin: 0 auto;
+.ImageRow {
+	display: inline-block;
+	height: 300px;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.ImageContainer {
+	overflow:hidden;
+	width: 400px;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.ImageContainer > img {
+	height: 100%;
+	width: auto;
+	margin: auto;
+}
+
+.Footer {
+	width: 100%;
+	margin-top: 50px;
+	height: 50px;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	color: #888888;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	line-height: 150%;
+	color: #888888;
+	text-align:center;
 }
 
 img {
