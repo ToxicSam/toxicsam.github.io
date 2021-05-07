@@ -146,6 +146,10 @@ p {
 	margin: auto;
 }
 
+td > img {
+	border-radius: 8px;
+}
+
 .Footer {
 	width: 100%;
 	margin-top: 50px;

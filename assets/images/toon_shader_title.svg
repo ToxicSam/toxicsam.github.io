@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="293.9742"
-     inkscape:cy="472.36659"
+     inkscape:zoom="1.4"
+     inkscape:cx="272.35446"
+     inkscape:cy="698.64754"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -51,9 +51,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#3a3a3a;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2306"
+       width="71.248512"
+       height="30.994047"
+       x="37.608627"
+       y="228.10863" />
     <g
        id="g2081"
-       transform="translate(9.3544335,-16.83798)">
+       transform="translate(9.3544335,-16.83798)"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101">
       <circle
          style="fill:#ffffff;stroke:#404040;stroke-width:0.965;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path2034"
@@ -120,7 +129,9 @@
     <g
        id="g2187"
        transform="translate(-0.0193171,-3.0715107)"
-       style="stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none">
+       style="stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101">
       <g
          id="g2172"
          transform="translate(4.136737,-41.053894)"
@@ -179,34 +190,98 @@
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 78.094316,119.16683 c 0,0 0.792585,-0.28773 1.015412,0.48898"
-       id="path2189" />
+       id="path2189"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 86.946117,109.31324 c 0,0 1.00226,-0.0668 1.169305,1.06907"
-       id="path2191" />
+       id="path2191"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 92.976387,109.31357 c 0,0 1.00226,-0.0668 1.169305,1.06907"
-       id="path2191-8" />
+       id="path2191-8"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 98.964827,109.14976 c 0,0 1.120373,-0.20854 1.287423,0.92733"
        id="path2191-8-4"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 95.988264,119.04801 c -0.0068,0.0274 0.952559,0.132 1.169305,1.06907"
        id="path2191-8-0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 107.80002,119.02438 c 0.005,0.01 0.65931,-0.16285 1.21655,0.36037"
        id="path2191-8-46"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 71.216069,117.32494 c -0.09168,0.0458 1.036063,-0.30813 1.901634,0.47848"
        id="path2191-8-464"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.47625px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="33.639881"
+       y="170.84525"
+       id="text2280"><tspan
+         sodipodi:role="line"
+         id="tspan2278"
+         x="33.639881"
+         y="170.84525"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';stroke-width:0.264583;">Proposal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.47625000000000001px;fill:#3a3a3a;fill-opacity:1;stroke:#ebebeb;stroke-width:0.264583;stroke-opacity:1;"
+       x="36.146275"
+       y="195.21481"
+       id="text2280-1"
+       inkscape:export-xdpi="489.03101"
+       inkscape:export-ydpi="489.03101"><tspan
+         sodipodi:role="line"
+         id="tspan2278-4"
+         x="36.146275"
+         y="195.21481"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';fill:#3a3a3a;fill-opacity:1;stroke:#ebebeb;stroke-width:0.264583;stroke-opacity:1;">Proposal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.47625px;fill:#3a3a3a;fill-opacity:1;stroke:#ebebeb;stroke-width:0.264583;stroke-opacity:1"
+       x="42.00491"
+       y="213.16869"
+       id="text2280-1-7"
+       inkscape:export-xdpi="566.85834"
+       inkscape:export-ydpi="566.85834"><tspan
+         sodipodi:role="line"
+         id="tspan2278-4-3"
+         x="42.00491"
+         y="213.16869"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';fill:#3a3a3a;fill-opacity:1;stroke:#ebebeb;stroke-width:0.264583;stroke-opacity:1">Milestone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.47625px;fill:#3a3a3a;fill-opacity:1;stroke:#ebebeb;stroke-width:0.264583;stroke-opacity:1"
+       x="91.897766"
+       y="196.72672"
+       id="text2280-1-1"
+       inkscape:export-xdpi="803.50793"
+       inkscape:export-ydpi="803.50793"><tspan
+         sodipodi:role="line"
+         id="tspan2278-4-0"
+         x="91.897766"
+         y="196.72672"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font Bold';fill:#3a3a3a;fill-opacity:1;stroke:#ebebeb;stroke-width:0.264583;stroke-opacity:1">Final</tspan></text>
   </g>
 </svg>
