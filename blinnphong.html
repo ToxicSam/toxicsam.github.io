@@ -37,7 +37,7 @@
 			<div class="Citation">Brandon Bizzarro</div>
 			<h2 align="middle">Technical Approach</h2>
 			<p>
-			As a first approach, we implement a basic toon shader by modifying the Blinn-Phong lighting algorithm. To this end, we address a few technical details particular to Unity shader set up. These include passing directional lighting information from a Unity scene and transforming vertex normals using Unity's built in \(\texttt{ObjectToWorld}\) transformation matrices for use in a CG fragment shader. Once we have access to these components, it becomes much easier to coopt our understanding of the Blinn-Phong algorithm and shader operation as presented in CS 184's Project 4 framework for use in Unity.
+			As a first approach, we implement a basic toon shader by modifying <a href="https://roystan.net/articles/toon-shader.html">Roystan's Toon Shader</a>. To this end, we address a few technical details particular to Unity shader set up. These include passing directional lighting information from a Unity scene and transforming vertex normals using Unity's built in \(\texttt{ObjectToWorld}\) transformation matrices for use in a CG fragment shader. Once we have access to these components, it becomes much easier to coopt our understanding of the Blinn-Phong model and shader operation as presented in CS 184's Project 4 framework to improve Roystan's Unity implementation.
 			</p>
 
 			<p>
@@ -102,13 +102,13 @@ There are two further effects that we can implement in addition to the basic cel
 <h3 align="middle">Outlines</h3>
 
 <p>
-One way to create an outline around the geometry is by using multiple passes. However, for this first approach, we consider a simple method to produce a believable effect with only one pass. This method simply considers the dot product of the vertex normal and the view direction \(n\cdot v\). We can then color parts of the surface where this dot product is less than \(0\) a solid color. Allowing for regions where this dot product is slightly greater than \(0\) equates to increasing the "thickness" of the outline. For smooth geometries, such as primitive spheres, this method produces the desired result and properties like the line-thickness are easy to control. On the other hand, for less regular geometries with hard edges, this method produces an outline with irregular thickness that often covers large sections of the surface with the outline color. This is especially true in flat regions where the normal does not change across the area but happens to remain within the cutoff range. To solve this issue, we can use a second pass which is implemented in Leon's SimpToon Shader.
+One way to create an outline around the geometry is by using multiple passes. However, for this first approach, we consider a simple method to produce a believable effect with only one pass. This method simply considers the dot product of the vertex normal and the view direction \(n\cdot v\). We can then color parts of the surface where this dot product is less than \(0\) a solid color. Allowing for regions where this dot product is slightly greater than \(0\) equates to increasing the "thickness" of the outline. For smooth geometries, such as primitive spheres, this method produces the desired result and properties like the line-thickness are easy to control. On the other hand, for less regular geometries with hard edges, this method produces an outline with irregular thickness that often covers large sections of the surface with the outline color. This is especially true in flat regions where the normal does not change across the area but happens to remain within the cutoff range. To solve this issue, we can use a second pass which is implemented in <a href="toonshaders.html">Leon's SimpToon Shader</a>.
 </p>
 
 <h3 align="middle">Dithering</h3>
 
 <p>
-Although dithering could be achieved by referencing an external texture or performing multiple passes, again, for our initial approach we wanted a simple and robust method to produce our desired results. We begin by dividing the \(uv\) space into a regular grid by some step \(0 \le \Delta t \le 0.5\). The points on this grid will determine the location of our dithering pattern, in this case, a solid circle. We can then vary the size of the pattern by changing the value of a "quarter-step", in other words the distance to the next multiple of \(\Delta t\). We then use the UV coordinates to calculate whether or not a particular fragment lies within this range. In the case that it does, we toggle off its diffuse value so that it takes on only the ambient color (i.e. the dark region of our cell-shaded effect). By varying this quarter step, depending on the strength of the diffuse light, we can change the size of our pattern as we move away ffrom dark regions. This simulates the dithering pattern often used in place of smooth shading in printed art.
+Although dithering could be achieved by referencing an external texture or performing multiple passes, again, for our initial approach we wanted a simple and robust method to produce our desired results. We begin by dividing the \(uv\) space into a regular grid by some step \(0 \le \Delta t \le 0.5\). The points on this grid will determine the location of our dithering pattern, in this case, a solid circle. We can then vary the size of the pattern by changing the value of a "quarter-step", in other words the distance to the next multiple of \(\Delta t\). We then use the UV coordinates to calculate whether or not a particular fragment lies within this range. In the case that it does, we toggle off its diffuse value so that it takes on only the ambient color (i.e. the dark region of our cell-shaded effect). By varying this quarter step, depending on the strength of the diffuse light, we can change the size of our pattern as we move away from dark regions. This simulates the dithering pattern often used in place of smooth shading in printed art.
 </p>
 
 	
@@ -143,8 +143,8 @@ We can clearly see the differences between applying a single-pass outline shader
 				<table style="width=100%">
       			  <tr>
       			    <td>
-      			      <img src="assets/images/solid_ape.png" align="middle" width="100%" />
-      			      <figcaption align="middle">Dithering and the limitations of single-pass outlines </figcaption>
+      			      <img src="assets/images/monk.gif" align="middle" width="100%" />
+      			      <figcaption align="middle">Dynamic dithering</figcaption>
       			    </td>
       			  </tr>
       			</table>
