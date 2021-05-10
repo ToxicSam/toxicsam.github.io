@@ -41,7 +41,7 @@
 			</p>
 
 			<p>
-This translation to Unity imparts at least one significant change to the standard algorithm. Unity directional lighting carries no positional information. Therefore, light intensity is considered to be constant throughout the scene and does not fall off with distance. With this in mind we beging from the basic Blinn-Phong formulation:
+This translation to Unity imparts at least one significant change to the standard algorithm. Unity directional lighting carries no positional information. Therefore, light intensity is considered to be constant throughout the scene and does not fall off with distance. With this in mind we begin from the basic Blinn-Phong formulation:
 </p>
 
 <p>
@@ -102,13 +102,13 @@ There are two further effects that we can implement in addition to the basic cel
 <h3 align="middle">Outlines</h3>
 
 <p>
-One way to create an outline around the geometry is by using multiple passes. However, for this first approach, we consider a simple method to produce a believable effect with only one pass. This method simply consideres the dot product of the vertex normal and the view direction \(n\cdot v\). We can then color parts of the surface where this dot product is less than \(0\) a solid color. Allowing for regions where this dot product is slightly greater than \(0\) equates to increasing the "thickness" of the outline. For smooth geometries, such as primitive spheres, this method produces the desired result and properties like the line-thickness are easy to control. On hand, for less regular geometries with hard edges, this method produces an outline with irregular thickness that often covers large sections of the surface with the outline color where the normal does not change across the area but remains within the cutoff range. To solve this issue, we can use a second pass which we implement in later iterations.
+One way to create an outline around the geometry is by using multiple passes. However, for this first approach, we consider a simple method to produce a believable effect with only one pass. This method simply considers the dot product of the vertex normal and the view direction \(n\cdot v\). We can then color parts of the surface where this dot product is less than \(0\) a solid color. Allowing for regions where this dot product is slightly greater than \(0\) equates to increasing the "thickness" of the outline. For smooth geometries, such as primitive spheres, this method produces the desired result and properties like the line-thickness are easy to control. On the other hand, for less regular geometries with hard edges, this method produces an outline with irregular thickness that often covers large sections of the surface with the outline color. This is especially true in flat regions where the normal does not change across the area but happens to remain within the cutoff range. To solve this issue, we can use a second pass which is implemented in Leon's SimpToon Shader.
 </p>
 
 <h3 align="middle">Dithering</h3>
 
 <p>
-The second effect, dithering, could be achieved by referencing an external texture or performing multiple passes. Again, in our initial approach we wanted a robust, simple method to produce our desired result. We begin by dividing the \(uv\) space into a regular grid by some step \(0 \le \Delta t \le 0.5\). The points on this grid will determine the location of our dithering pattern in this case, a solid circle. We can then vary the size of the pattern by changing the value of a "quarter-step", in other words the distance to the next multiple of \(\Delta t\). We then use the UV coordinates to calculate whether or not a particular fragment lies within this range. In the case that it does, we toggle off its diffuse value so that it takes on only the ambient color (i.e. the dark region of our cell-shaded effect). By varying this quarter step, depending on the strength of the diffuse light, we can change the size of our pattern as we move away form dark regions. This simulates the dithering pattern often used in place of smooth shading in printed art.
+Although dithering could be achieved by referencing an external texture or performing multiple passes, again, for our initial approach we wanted a simple and robust method to produce our desired results. We begin by dividing the \(uv\) space into a regular grid by some step \(0 \le \Delta t \le 0.5\). The points on this grid will determine the location of our dithering pattern, in this case, a solid circle. We can then vary the size of the pattern by changing the value of a "quarter-step", in other words the distance to the next multiple of \(\Delta t\). We then use the UV coordinates to calculate whether or not a particular fragment lies within this range. In the case that it does, we toggle off its diffuse value so that it takes on only the ambient color (i.e. the dark region of our cell-shaded effect). By varying this quarter step, depending on the strength of the diffuse light, we can change the size of our pattern as we move away ffrom dark regions. This simulates the dithering pattern often used in place of smooth shading in printed art.
 </p>
 
 	
@@ -165,7 +165,7 @@ We can clearly see the differences between applying a single-pass outline shader
 			<h2 align="middle">References</h2>
 
 			<p>
-			https://roystan.net/articles/toon-shader.html
+			<a href="https://roystan.net/articles/toon-shader.html">Roystan's Tutorial</a>
 			</p>
 
 			<div class="Hline"></div>
