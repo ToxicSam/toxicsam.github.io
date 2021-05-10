@@ -35,6 +35,7 @@
 		<div class="padded">
 			<h1 align="middle">Blinn-Phong Toon Shading</h1>
 			<div class="Citation">Brandon Bizzarro</div>
+			<h2 align="middle">Technical Approach</h2>
 			<p>
 			As a first approach, we implement a basic toon shader by modifying the Blinn-Phong lighting algorithm. To this end, we address a few technical details particular to Unity shader set up. These include passing directional lighting information from a Unity scene and transforming vertex normals using Unity's built in \(\texttt{ObjectToWorld}\) transformation matrices for use in a CG fragment shader. Once we have access to these components, it becomes much easier to coopt our understanding of the Blinn-Phong algorithm and shader operation as presented in CS 184's Project 4 framework for use in Unity.
 			</p>

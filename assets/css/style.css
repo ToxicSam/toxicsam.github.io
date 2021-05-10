@@ -182,7 +182,7 @@ img {
 .Button {
 	position: relative;
 	display: inline-block;
-	border-radius: 40px;
+	border-radius: 50%;
 	overflow: hidden;
 	transition: 0.5s;
 	opacity: 70%;
@@ -195,8 +195,8 @@ img {
 
 .Button:hover {
 	transition: 0.5s;
-	border-radius: 50%;
 	opacity: 100%;
+	border-radius: 40px;
 }
 
 .Button:hover .ButtonText {
@@ -235,4 +235,8 @@ img {
 
 h1 {
 	font-size: 50px;
+}
+
+h3 {
+	margin-top: 50px;
 }
